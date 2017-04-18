@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ff0000"
     tools:context="example.codeclan.com.appwordcount.PrimaryActivity">
 
 
@@ -15,6 +16,8 @@
         android:id="@+id/EditText"
         android:hint="@string/user_text"
         android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -27,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:backgroundTint="#00ffbf"
         android:layout_marginTop="80dp"
         android:layout_below="@+id/EditText"
         android:layout_centerHorizontal="true"
